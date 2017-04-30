@@ -90,3 +90,12 @@ def encode(sentence, lookup, maxlen, whitelist=EN_WHITELIST, separator=''):
     idx_x = np.array(pad_seq(indices_x, lookup, maxlen))
     # reshape
     return idx_x.reshape([maxlen, 1])
+
+def pad_seq(seq, lookup, maxlen):
+    indices = []
+    for word in seq:
+        if word in lookup:
+            indices.append(lookup[word])
+        else:
+            indices.append(lookup['unk'])
+    return indices + [0]*(maxlen - len(seq))
