@@ -1,0 +1,25 @@
+-Human: [Hello] bot answer [i unk unk unk]
+-Human: [Hello those are your first training hours] bot answer [i unk unk unk]
+-Human: [Are you sure?] bot answer [i unk unk unk]
+-Human: [I know unk] bot answer [i unk unk unk]
+-Human: [My name is Jacobo] bot answer [i unk unk unk]
+-Human: [fine] bot answer [i unk unk unk]
+-Human: [bye] bot answer [i unk unk unk]
+-Human: [hello] ; Bot answer [i unk unk] ; 2017-04-30 05:27:56
+-Human: [you still sayin unk unk] ; Bot answer [i unk unk unk] ; 2017-04-30 05:28:06
+-Human: [you are like me] ; Bot answer [i unk unk] ; 2017-04-30 05:28:21
+-Human: [i love you] ; Bot answer [i unk unk] ; 2017-04-30 05:28:25
+-Human: [how are you?] ; Bot answer [i unk unk] ; 2017-04-30 05:28:30
+-Human: [i will eat you alive] ; Bot answer [i unk unk] ; 2017-04-30 05:28:49
+-Human: [i unk unk] ; Bot answer [i unk unk unk] ; 2017-04-30 05:28:52
+-Human: [i] ; Bot answer [i unk unk] ; 2017-04-30 05:28:54
+-Human: [hello] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:57:21
+-Human: [hey, you're starting to talk] ; Bot answer [i was a unk unk] ; 2017-04-30 14:57:36
+-Human: [are you ok?] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:04
+-Human: [how are you?] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:16
+-Human: [that is all you can say?] ; Bot answer [i dont know i was a unk unk] ; 2017-04-30 14:58:27
+-Human: [i dont knotw] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:34
+-Human: [i dont know] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:39
+-Human: [fuck you] ; Bot answer [i was a unk unk] ; 2017-04-30 14:58:43
+-Human: [hello ] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:49
+-Human: [i like music] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:54

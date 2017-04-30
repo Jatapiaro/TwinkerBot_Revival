@@ -1,6 +1,7 @@
+EN_WHITELIST = '0123456789abcdefghijklmnopqrstuvwxyz '
 import numpy as np
 from random import sample
-
+import pickle
 '''
  split data into train (70%), test (15%) and valid(15%)
     return tuple( (trainX, trainY), (testX,testY), (validX,validY) )
@@ -59,6 +60,10 @@ def rand_batch_gen(x, y, batch_size):
 #def decode_phonemes(pho_seq, idx2pho):
 #    return ' '.join( [ idx2pho[pho] for pho in pho_seq if pho ])
 
+def get_metadata():
+    with open('datasets/twitter/metadata.pkl', 'rb') as f:
+        metadata = pickle.load(f)
+    return metadata.get('idx2w'), metadata.get('w2idx'), metadata.get('limit')
 
 '''
  a generic decode function
@@ -67,3 +72,21 @@ def rand_batch_gen(x, y, batch_size):
 '''
 def decode(sequence, lookup, separator=''): # 0 used for padding, is ignored
     return separator.join([ lookup[element] for element in sequence if element ])
+
+'''
+ encode function
+    inputs : sentence, lookup
+'''
+def encode(sentence, lookup, maxlen, whitelist=EN_WHITELIST, separator=''):
+    # to lower case
+    sentence = sentence.lower()
+    # allow only characters that are on whitelist
+    sentence = ''.join( [ ch for ch in sentence if ch in whitelist ] )
+    # words to indices
+    indices_x = [ token for token in sentence.strip().split(' ') ]
+    # clip the sentence to fit model (#words)
+    indices_x = indices_x[-maxlen:] if len(indices_x) > maxlen else indices_x
+    # zero pad
+    idx_x = np.array(pad_seq(indices_x, lookup, maxlen))
+    # reshape
+    return idx_x.reshape([maxlen, 1])
