@@ -44,7 +44,6 @@ def read_lines(filename):
  split sentences in one line
   into multiple lines
     return [list of lines]
-
 '''
 
 

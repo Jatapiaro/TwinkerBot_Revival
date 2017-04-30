@@ -51,8 +51,7 @@ class Seq2Seq(object):
                 #  inputs : encoder, decoder inputs, LSTM cell type, vocabulary sizes, embedding dimensions
                 self.decode_outputs, self.decode_states = tf.contrib.legacy_seq2seq.embedding_rnn_seq2seq(self.enc_ip,
                                                                                                           self.dec_ip,
-                                                                                                          stacked_lstm,
-                                                                                                          xvocab_size,
+                                                                                                          stacked_lstm,                                                                                           xvocab_size,
                                                                                                           yvocab_size,
                                                                                                           emb_dim)
                 # share parameters
@@ -120,9 +119,9 @@ class Seq2Seq(object):
         return np.mean(losses)
 
     # finally the train function that
-    #  runs the train_op in a session
-    #   evaluates on valid set periodically
-    #    prints statistics
+    # runs the train_op in a session
+    # evaluates on valid set periodically
+    # prints statistics
     def train(self, train_set, valid_set, sess=None):
 
         # we need to save the model periodically
