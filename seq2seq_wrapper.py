@@ -137,6 +137,7 @@ class Seq2Seq(object):
         sys.stdout.write('\n<log> Training started </log>\n')
         # run M epochs
         for i in range(self.epochs):
+            print("Current i: "+str(i))
             try:
                 self.train_batch(sess, train_set)
                 if i and i % (self.epochs // 100) == 0:  # TODO : make this tunable by the user
