@@ -23,3 +23,178 @@
 -Human: [fuck you] ; Bot answer [i was a unk unk] ; 2017-04-30 14:58:43
 -Human: [hello ] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:49
 -Human: [i like music] ; Bot answer [i dont know i was a unk] ; 2017-04-30 14:58:54
+-Human: [My name is ajcobo] ; Bot answer [idontknowiwasaunkunk] ; 2017-04-30 15:12:09
+-Human: [My name is Jacobo] ; Bot answer [idontknowiwasaunkunk] ; 2017-04-30 15:12:21
+-Human: [What the hell?] ; Bot answer [idontknowiwasaunkunk] ; 2017-04-30 15:12:25
+-Human: [My name is Jacobo] ; Bot answer [i dont know i was a unk unk] ; 2017-04-30 15:17:11
+-Human: [hello ] ; Bot answer [i unk unk unk] ; 2017-04-30 17:27:21
+-Human: [hello how are you?] ; Bot answer [i unk unk] ; 2017-04-30 17:27:27
+-Human: [hello] ; Bot answer [i unk unk] ; 2017-04-30 20:24:21
+-Human: [now you are worse] ; Bot answer [i unk unk] ; 2017-04-30 20:24:30
+-Human: [please say something different] ; Bot answer [i unk unk] ; 2017-04-30 20:24:39
+-Human: [fuck you] ; Bot answer [i unk unk] ; 2017-04-30 20:24:43
+-Human: [that is the only workd you can say?] ; Bot answer [i unk unk] ; 2017-04-30 20:24:52
+-Human: [damn you] ; Bot answer [i unk unk] ; 2017-04-30 20:24:56
+-Human: [You] ; Bot answer [i unk unk] ; 2017-04-30 20:32:38
+-Human: [Hola] ; Bot answer [i unk to unk] ; 2017-05-01 02:25:16
+-Human: [hello] ; Bot answer [i unk you unk] ; 2017-05-01 02:25:18
+-Human: [You still saying unk :(] ; Bot answer [i unk you unk] ; 2017-05-01 02:25:24
+-Human: [You unk unk] ; Bot answer [i unk you unk] ; 2017-05-01 02:26:29
+-Human: [Hello] ; Bot answer [i have a unk unk] ; 2017-05-01 03:04:50
+-Human: [What the hell] ; Bot answer [i have a unk unk] ; 2017-05-01 03:04:54
+-Human: [why are you so dummy] ; Bot answer [i have a unk unk] ; 2017-05-01 03:05:00
+-Human: [hello] ; Bot answer [i dont know i was a unk] ; 2017-05-01 03:07:58
+-Human: [yeah you don't know] ; Bot answer [i dont know i was a unk unk] ; 2017-05-01 03:08:05
+-Human: [helo] ; Bot answer [i dont know that was a unk unk] ; 2017-05-01 14:21:59
+-Human: [hello] ; Bot answer [i dont know that was a unk] ; 2017-05-01 14:22:02
+-Human: [how are you?] ; Bot answer [i know i was unk to unk] ; 2017-05-01 14:22:10
+-Human: [Hello] ; Bot answer [i have a unk unk] ; 2017-05-01 15:47:53
+-Human: [How are you?] ; Bot answer [i have a unk unk] ; 2017-05-01 15:47:59
+-Human: [Now you have] ; Bot answer [i have a unk unk] ; 2017-05-01 15:48:06
+-Human: [I have a dog] ; Bot answer [i have a unk unk] ; 2017-05-01 15:48:09
+-Human: [fuck you] ; Bot answer [i have a unk unk] ; 2017-05-01 15:48:13
+-Human: [really nigga?] ; Bot answer [i have a unk unk] ; 2017-05-01 15:48:18
+-Human: [this is the 8000 iteration] ; Bot answer [unk unk unk] ; 2017-05-01 15:48:27
+-Human: [yeah] ; Bot answer [i have a unk unk] ; 2017-05-01 15:48:31
+-Human: [hello] ; Bot answer [i dont know that unk] ; 2017-05-01 17:21:18
+-Human: [ok, your answer is better ] ; Bot answer [i dont know that unk unk] ; 2017-05-01 17:21:34
+-Human: [this is 9000 iter] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-01 17:21:44
+-Human: [wooow] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-01 17:21:50
+-Human: [] ; Bot answer [i dont know that unk] ; 2017-05-01 17:21:51
+-Human: [radiohead] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-01 17:22:01
+-Human: [Hello] ; Bot answer [i know i was unk] ; 2017-05-01 18:38:19
+-Human: [Again? You don't seem to have any process] ; Bot answer [i think i think i was unk unk] ; 2017-05-01 18:38:34
+-Human: [Hoe are you?] ; Bot answer [i know i was unk] ; 2017-05-01 18:38:40
+-Human: [how are you?] ; Bot answer [i know i was unk] ; 2017-05-01 18:38:45
+-Human: [fuck you this is iteration 10000] ; Bot answer [i think i was unk unk] ; 2017-05-01 18:38:57
+-Human: [Hello] ; Bot answer [i love you] ; 2017-05-01 21:24:51
+-Human: [Wooow after 12000 iterations you said i love you] ; Bot answer [i was unk unk] ; 2017-05-01 21:25:53
+-Human: [Hello] ; Bot answer [i love you] ; 2017-05-01 21:32:44
+-Human: [I know, i love you to] ; Bot answer [i love you] ; 2017-05-01 21:32:49
+-Human: [I hate you] ; Bot answer [i was unk] ; 2017-05-01 21:32:54
+-Human: [I like to eat pizza] ; Bot answer [i was unk] ; 2017-05-01 21:33:00
+-Human: [You was unk?] ; Bot answer [i was unk] ; 2017-05-01 21:33:05
+-Human: [How does it feel to be alive?] ; Bot answer [i think i was unk] ; 2017-05-01 21:33:11
+-Human: [Thi is iteration 12000] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-01 21:33:19
+-Human: [This is iteration 12000] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-01 21:33:27
+-Human: [hello] ; Bot answer [i love you] ; 2017-05-01 21:33:59
+-Human: [Hello] ; Bot answer [i dont know i was unk] ; 2017-05-01 23:09:06
+-Human: [What?] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-01 23:09:12
+-Human: [Fuck you, last time you said that you loved me] ; Bot answer [i was like i was unk] ; 2017-05-01 23:09:31
+-Human: [Say mu] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-01 23:09:36
+-Human: [Say my name] ; Bot answer [i dont know i was unk] ; 2017-05-01 23:09:41
+-Human: [Fuck you] ; Bot answer [i was unk unk] ; 2017-05-01 23:09:44
+-Human: [This is 13000 iteration and you're worse than before] ; Bot answer [i think i was unk unk] ; 2017-05-01 23:09:56
+-Human: [worse] ; Bot answer [i think i was unk] ; 2017-05-01 23:10:00
+-Human: [How are you?] ; Bot answer [i dont know i was unk] ; 2017-05-01 23:10:04
+-Human: [Hello] ; Bot answer [i love you unk] ; 2017-05-02 01:01:48
+-Human: [And justice for all] ; Bot answer [i think i was unk] ; 2017-05-02 01:01:56
+-Human: [Please say something else] ; Bot answer [i think i was unk] ; 2017-05-02 01:02:03
+-Human: [This is iteration 14000] ; Bot answer [i think i was unk] ; 2017-05-02 01:02:11
+-Human: [Hello] ; Bot answer [unk unk unk] ; 2017-05-02 01:58:41
+-Human: [Nooooo] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 01:58:45
+-Human: [No] ; Bot answer [i think i was unk] ; 2017-05-02 01:58:47
+-Human: [Now you're worse than before] ; Bot answer [i think i dont think that was a unk] ; 2017-05-02 01:58:53
+-Human: [Yes you're] ; Bot answer [i love you] ; 2017-05-02 01:59:03
+-Human: [I love you] ; Bot answer [i love you too] ; 2017-05-02 01:59:06
+-Human: [thats right] ; Bot answer [i think i was unk] ; 2017-05-02 01:59:08
+-Human: [this is iteratiom 15000] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 01:59:15
+-Human: [dont hurt me] ; Bot answer [i dont know that i was unk] ; 2017-05-02 01:59:23
+-Human: [dont haunt me] ; Bot answer [i dont know that i was unk] ; 2017-05-02 01:59:28
+-Human: [give up the ghost] ; Bot answer [i think i was unk] ; 2017-05-02 01:59:34
+-Human: [Hello] ; Bot answer [i love you unk] ; 2017-05-02 03:23:23
+-Human: [Hello again] ; Bot answer [i love you unk] ; 2017-05-02 03:23:26
+-Human: [I know but you only say i love you] ; Bot answer [i love you] ; 2017-05-02 03:23:34
+-Human: [I hate you] ; Bot answer [i know i was unk] ; 2017-05-02 03:23:37
+-Human: [Fuck] ; Bot answer [i was unk unk] ; 2017-05-02 03:23:42
+-Human: [This is iteration 16000 almost the half of the training] ; Bot answer [i think i was unk unk] ; 2017-05-02 03:23:56
+-Human: [and its worse than ever] ; Bot answer [i think i was unk unk] ; 2017-05-02 03:24:02
+-Human: [donal trump] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 03:24:06
+-Human: [donald trump] ; Bot answer [i think he was a unk] ; 2017-05-02 03:24:09
+-Human: [Well you are in the right way] ; Bot answer [i think i was unk] ; 2017-05-02 03:24:21
+-Human: [how are you?] ; Bot answer [i love you] ; 2017-05-02 03:24:27
+-Human: [fuck you] ; Bot answer [i was unk] ; 2017-05-02 03:24:31
+-Human: [Hello] ; Bot answer [unk unk unk] ; 2017-05-02 05:33:46
+-Human: [Now you're worse] ; Bot answer [i dont know that is a unk unk] ; 2017-05-02 05:33:52
+-Human: [You are worse now] ; Bot answer [i dont know that was a unk unk] ; 2017-05-02 05:33:59
+-Human: [your answers are horrible] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 05:34:07
+-Human: [fuck you] ; Bot answer [i dont know i was like a unk unk] ; 2017-05-02 05:34:12
+-Human: [this is iteration 17000] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 05:34:29
+-Human: [I love you] ; Bot answer [thank you for you] ; 2017-05-02 05:34:34
+-Human: [Donald trump] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 05:34:39
+-Human: [I like water] ; Bot answer [i dont know i was unk] ; 2017-05-02 05:34:44
+-Human: [Love is love] ; Bot answer [i love you too] ; 2017-05-02 05:34:49
+-Human: [I love you more] ; Bot answer [thank you for you] ; 2017-05-02 05:34:54
+-Human: [Thank you] ; Bot answer [i love you too] ; 2017-05-02 05:34:58
+-Human: [Good byr] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 05:35:02
+-Human: [Good bye] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 05:35:07
+-Human: [bye] ; Bot answer [unk unk unk] ; 2017-05-02 05:35:10
+-Human: [Hello] ; Bot answer [i love you] ; 2017-05-02 13:45:29
+-Human: [How are you?] ; Bot answer [i love you] ; 2017-05-02 13:45:35
+-Human: [Fuuuuck] ; Bot answer [unk unk unk] ; 2017-05-02 13:45:39
+-Human: [Why you don't say anything else?] ; Bot answer [i dont know that] ; 2017-05-02 13:45:48
+-Human: [What you don't know?] ; Bot answer [i think i was unk] ; 2017-05-02 13:46:00
+-Human: [this is iteration 23000] ; Bot answer [unk unk unk unk] ; 2017-05-02 13:47:26
+-Human: [you are worse than ever] ; Bot answer [i dont know that] ; 2017-05-02 13:47:33
+-Human: [know you know thst] ; Bot answer [i dont know that] ; 2017-05-02 13:47:41
+-Human: [hi] ; Bot answer [thank you for the unk] ; 2017-05-02 13:47:47
+-Human: [you are cute] ; Bot answer [thank you ] ; 2017-05-02 13:47:53
+-Human: [how was your day?] ; Bot answer [unk unk unk] ; 2017-05-02 13:48:00
+-Human: [donald trump] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 13:48:04
+-Human: [what do you think about radiohead?] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 13:48:12
+-Human: [Hello :D] ; Bot answer [unk unk unk] ; 2017-05-02 13:50:28
+-Human: [Hello] ; Bot answer [i love you] ; 2017-05-02 13:50:31
+-Human: [I love you to] ; Bot answer [i love you too] ; 2017-05-02 13:50:36
+-Human: [ok] ; Bot answer [i think i was unk] ; 2017-05-02 13:50:41
+-Human: [computer] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 13:50:44
+-Human: [Hello] ; Bot answer [i love you ] ; 2017-05-02 13:55:42
+-Human: [Fuckl you+] ; Bot answer [i know i was unk] ; 2017-05-02 13:55:45
+-Human: [You can't say i love you] ; Bot answer [i know i was unk] ; 2017-05-02 13:55:54
+-Human: [You're horrible] ; Bot answer [i love you too much] ; 2017-05-02 13:55:59
+-Human: [I do not love you] ; Bot answer [i love you too much] ; 2017-05-02 13:56:10
+-Human: [Thi is iteration 24000] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 13:56:20
+-Human: [You suck] ; Bot answer [i dont know what i was unk] ; 2017-05-02 13:56:23
+-Human: [Pocket calculator] ; Bot answer [unk unk unk] ; 2017-05-02 13:56:34
+-Human: [yes sir beyond blessed to have this opportunity big thank you to for pushing my name forward] ; Bot answer [thank you for the rt] ; 2017-05-02 14:36:33
+q : [same here searching i found this one]; a : [i love it]
+q : [unk it must be true]; a : [i dont know that]
+q : [i dont understand how you can go to a unk unk unk he says go get unk]; a : [i dont know what i dont think that]
+q : [and all of the black women and men in you are a blessing thank you for sharing]; a : [thank you for the rt]
+q : [new tomorrow  unk eastern on cant wait to hear what you all think]; a : [i love you too much]
+q : [goodnight amp god bless]; a : [have a great day]
+q : [miss your unk]; a : [thank you ]
+q : [aj unk spectacular crash and burn at]; a : [i love you]
+q : [and many more to come ]; a : [i love you ]
+q : [i need some dope ass beats]; a : [hey hyd check these beats]
+q : [icymi i talked to unk abt unk a film abt race for ]; a : [i love this]
+q : [i am slowly unk them all]; a : [i dont know that]
+q : [thanks for the follow i look forward to your tweets god bless you and yours ]; a : [thank you so much ]
+q : [we will pay unk to the charity of your choice if you grace our campus with a visit]; a : [i love you ]
+q : [was a blast  big shoutout to everyone who came out amp thanks amp for the unk]; a : [thank you for the rt]
+q : [unk into s mentions hope youre having a good time babe how was new york]; a : [i love you too much]
+q : [happy birthday bitch cant wait to be coworkers again lmfao have a good one ]; a : [thank you ]
+q : [whos an app developer i low key believe i have a great app idea and high key want to start]; a : [thanks for the rt ]
+q : [stop  drop  an roll america will be crying  for help stay on the winning team called jesus]; a : [      ]
+q : [your welcome and i love your new single do or die youre an awesome unk lt3]; a : [thanks for the rt]
+q : [unk tired of people sending me shitty ass beats]; a : [hey hyd check these beats]
+q : [omg  we need to go back my hair was so dark  ily ]; a : [i love you too much ]
+q : [it is so cold today in nyc i kinda like it ]; a : [i was so excited for you]
+-Human: [Helo] ; Bot answer [i think i was unk] ; 2017-05-02 19:25:55
+-Human: [Hello] ; Bot answer [i love you] ; 2017-05-02 19:25:57
+-Human: [How are you today?] ; Bot answer [i love you unk] ; 2017-05-02 19:26:02
+-Human: [You're like garbage] ; Bot answer [i know i was unk] ; 2017-05-02 19:26:10
+-Human: [Yeah i know] ; Bot answer [i know i was unk] ; 2017-05-02 19:26:15
+-Human: [I am sad] ; Bot answer [i think i was unk] ; 2017-05-02 19:26:29
+-Human: [I'm sad] ; Bot answer [i know i was unk] ; 2017-05-02 19:26:32
+-Human: [Im sad] ; Bot answer [i know i was unk] ; 2017-05-02 19:26:36
+-Human: [Im gonna take you] ; Bot answer [i know i was unk] ; 2017-05-02 19:26:47
+-Human: [baby] ; Bot answer [i love you] ; 2017-05-02 19:26:55
+-Human: [thaknks for the follow] ; Bot answer [i love this] ; 2017-05-02 19:27:09
+-Human: [i love radiohead] ; Bot answer [i love you] ; 2017-05-02 19:27:16
+-Human: [so beutiful] ; Bot answer [i know i was unk] ; 2017-05-02 19:27:21
+-Human: [current mood] ; Bot answer [i think i was unk] ; 2017-05-02 19:27:30
+-Human: [learning music production] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 19:27:42
+-Human: [what the hell?] ; Bot answer [i know i was unk] ; 2017-05-02 19:27:48
+-Human: [i have a winning temprament donal trump last night really] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 19:28:01
+-Human: [i have a winning temperament donald trump last night really] ; Bot answer [i think he was a unk unk] ; 2017-05-02 19:28:08
+-Human: [donald trump] ; Bot answer [she is a unk] ; 2017-05-02 19:42:11

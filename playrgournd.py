@@ -1,6 +1,6 @@
 import numpy as np
 
-import data_utils
+import datautils as data_utils
 import datetime
 import seq2seq_wrapper
 import os

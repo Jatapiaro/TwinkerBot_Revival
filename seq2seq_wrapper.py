@@ -128,11 +128,14 @@ class Seq2Seq(object):
         saver = tf.train.Saver()
 
         # if no session is given
-        if not sess:
+        if sess is None:
+            print("No session\n")
             # create a session
             sess = tf.Session()
             # init all variables
             sess.run(tf.global_variables_initializer())
+        else:
+            print("I have a session\n")
 
         sys.stdout.write('\n<log> Training started </log>\n')
         # run M epochs
@@ -154,17 +157,20 @@ class Seq2Seq(object):
                 self.session = sess
                 return sess
 
+
+
     def restore_last_session(self):
         saver = tf.train.Saver()
-        # create a session
+            # create a session
         sess = tf.Session()
-        # get checkpoint state
+            # get checkpoint state
         ckpt = tf.train.get_checkpoint_state(self.ckpt_path)
-        # restore session
+            # restore session
         if ckpt and ckpt.model_checkpoint_path:
             saver.restore(sess, ckpt.model_checkpoint_path)
-        # return to user
-        return sess
+                # return to user
+            return sess
+
 
     # prediction
     def predict(self, sess, X):
@@ -176,5 +182,8 @@ class Seq2Seq(object):
         dec_op_v = np.array(dec_op_v).transpose([1, 0, 2])
         # return the index of item with highest probability
         return np.argmax(dec_op_v, axis=2)
+
+
+
 
 
