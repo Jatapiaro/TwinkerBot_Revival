@@ -20,12 +20,12 @@ def respond(msg):
 '''
 print('>> Initializing data')
 # load data from pickle and npy files
-idx2w, w2idx, limit = data_utils.get_metadata()
+idx2w, w2idx, limit = data_utils.get_metadata2()
 
 # parameters
 xseq_len = limit['maxq']
 yseq_len = limit['maxa']
-batch_size = 1
+batch_size = 16
 xvocab_size = len(idx2w)
 yvocab_size = xvocab_size
 emb_dim = 1024
@@ -36,7 +36,7 @@ model = seq2seq_wrapper.Seq2Seq(xseq_len=xseq_len,
                                yseq_len=yseq_len,
                                xvocab_size=xvocab_size,
                                yvocab_size=yvocab_size,
-                               ckpt_path='ckpt/twitter/',
+                               ckpt_path='ckpt/cornell/',
                                emb_dim=emb_dim,
                                num_layers=3
                                )

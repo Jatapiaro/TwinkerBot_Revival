@@ -198,3 +198,8 @@ q : [it is so cold today in nyc i kinda like it ]; a : [i was so excited for you
 -Human: [i have a winning temprament donal trump last night really] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-02 19:28:01
 -Human: [i have a winning temperament donald trump last night really] ; Bot answer [i think he was a unk unk] ; 2017-05-02 19:28:08
 -Human: [donald trump] ; Bot answer [she is a unk] ; 2017-05-02 19:42:11
+-Human: [HellO] ; Bot answer [i unk] ; 2017-05-03 19:57:37
+-Human: [Hello] ; Bot answer [i unk] ; 2017-05-03 19:57:40
+-Human: [Hello] ; Bot answer [i dont know] ; 2017-05-05 02:55:38
+-Human: [What do you know?] ; Bot answer [i dont know] ; 2017-05-05 02:55:44
+-Human: [How are you?] ; Bot answer [i dont know] ; 2017-05-05 02:55:49

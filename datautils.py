@@ -8,9 +8,15 @@ import pickle
  get metadata - lookup
   idx2w and w2idx
 
+
 '''
 def get_metadata():
     with open('datasets/twitter/metadata.pkl', 'rb') as f:
+        metadata = pickle.load(f)
+    return metadata.get('idx2w'), metadata.get('w2idx'), metadata.get('limit')
+
+def get_metadata2():
+    with open('datasets/cornell/metadata.pkl', 'rb') as f:
         metadata = pickle.load(f)
     return metadata.get('idx2w'), metadata.get('w2idx'), metadata.get('limit')
 

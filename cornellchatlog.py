@@ -1,13 +1,13 @@
 
 # preprocessed data
-from datasets.twitter import data
+from datasets.cornell import data
 import data_utils
 
-metadata, idx_q, idx_a = data.load_data(PATH='datasets/twitter/')
+metadata, idx_q, idx_a = data.load_data(PATH='datasets/cornell/')
 (trainX, trainY), (testX, testY), (validX, validY) = data_utils.split_dataset(idx_q, idx_a)
 xseq_len = trainX.shape[-1]
 yseq_len = trainY.shape[-1]
-batch_size = 16
+batch_size = 256
 xvocab_size = len(metadata['idx2w'])
 yvocab_size = xvocab_size
 emb_dim = 1024
@@ -20,7 +20,7 @@ model = seq2seq_wrapper.Seq2Seq(xseq_len=xseq_len,
                                yseq_len=yseq_len,
                                xvocab_size=xvocab_size,
                                yvocab_size=yvocab_size,
-                               ckpt_path='ckpt/twitter/',
+                               ckpt_path='ckpt/cornell/',
                                emb_dim=emb_dim,
                                num_layers=3
                                )
@@ -36,7 +36,7 @@ output = model.predict(sess, input_)
 print(output.shape)
 
 
-output_file = open("testtraining.txt", 'a')
+output_file = open("CornellTraining.txt", 'a')
 
 replies = []
 for ii, oi in zip(input_.T, output):
