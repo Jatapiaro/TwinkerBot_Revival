@@ -41,6 +41,6 @@ train_batch_gen = data_utils.rand_batch_gen(trainX, trainY, batch_size)
 
 
 # In[9]:
-#sessi = model.restore_last_session()
-#sessi = model.train(train_batch_gen, val_batch_gen,sessi)
-sessi = model.train(train_batch_gen, val_batch_gen)
+sessi = model.restore_last_session()
+sessi = model.train(train_batch_gen, val_batch_gen,sessi)
+#sessi = model.train(train_batch_gen, val_batch_gen)
