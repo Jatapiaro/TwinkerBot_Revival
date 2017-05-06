@@ -7,15 +7,11 @@ import time
 
 class FixedResponses:
     dict = {}
-
     def __init__(self):
         if os.path.isfile("answers.pickle"):
             self.dict = pickle.load(open("answers.pickle", "rb"))
         else:
             self.save_pickle()
-        for key, value in self.dict.items():
-            print(str(key)+" -> "+str(value))
-
 
     def get_response(self, word):
         w = str(word).lower()
@@ -38,7 +34,7 @@ class FixedResponses:
     def contains_response(self,k):
         return k in self.dict
 
-data = FixedResponses()
+
 
 """f = float(((60+96)/2) * 0.50) - 70.0
 print(str(f))
@@ -55,12 +51,3 @@ f += float(70*.25)
 print(str(f))
 f += float(50*.20)
 print(str(f))"""
-
-"""end_chat = 'fitter_happier_more_productive'
-while True:
-    s = input("Pregunta: ")
-    if s!=end_chat:
-        print(data.get_response(s))
-    else:
-        break"""
-

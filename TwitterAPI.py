@@ -2,7 +2,7 @@
 import tweepy#, time, sys
 
 from Configuration.TwitterConfiguration import CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET
-
+from LearningAboutUsers import LearningUsers
 
 def tweet(line):
     api = get_api()
@@ -13,10 +13,16 @@ def tweet(line):
 def mentions():
     api,auth = get_api()
     api = tweepy.API(auth)
-    m = api.mentions_timeline(count = 10)
+    m = api.mentions_timeline(count = 25)
     #for men in range(0,len(m)):
          #print (m[men])
     return m
+
+def remember_user(screen_name,name):
+    api,auth = get_api()
+    api.create_friendship(screen_name=screen_name)
+    return screen_name,name
+
 
 
 def get_api():
@@ -35,4 +41,5 @@ def response_to_mention(tw,id,user):
     print ("Answer mention")
     api,auth = get_api()
     api.create_favorite(id)
-    api.update_status("@"+str(user) + " " + str(tw), in_reply_to_status_id=id)
+    tweet = "@"+str(user) + " " + str(tw)
+    api.update_status(tweet[:140], in_reply_to_status_id=id)

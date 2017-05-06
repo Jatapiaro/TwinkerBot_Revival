@@ -70,13 +70,14 @@ print('>> Initialization complete; call respond(msg)')
 hash = correction_hash(randint(5,7))
 print("My hash: "+str(hash))
 fixed = FixedResponses()
+l = LearningUsers()
 while True:
     ment = mentions()
     for x in range(0, len(ment)):
         if ment[x].favorite_count != 0:
             continue
         else:
-            line = str(ment[x].text).split(' ', 1)[1]
+            line = str(ment[x].text).split(' ', 1)[1].lower()
             if hash.lower() in line.lower():
                 key = get_tweet_to_fix(ment[x].in_reply_to_status_id).text.split(' ', 1)[1]
                 value = ment[x].text.split(hash)[1]
@@ -87,6 +88,19 @@ while True:
             elif fixed.contains_response(line):
                 r = fixed.get_response(line)
                 response_to_mention(r, ment[x].id, ment[x].author.screen_name)
+            elif l.contains_user(ment[x].author.screen_name) and 'hello' in line:
+                response_to_mention("Hello "+ment[x].author.name+", how are you?", ment[x].id, ment[x].author.screen_name)
+            elif l.contains_user(ment[x].author.screen_name) and 'goodbye' in line:
+                response_to_mention("Bye "+ment[x].author.name+", see you soon", ment[x].id, ment[x].author.screen_name)
+            elif '#RememberMeMarvin' in line and not l.contains_user(ment[x].author.screen_name):
+                remember_user(ment[x].author.screen_name,ment[x].author.name)
+                l.append_like(ment[x].author.screen_name,ment[x].author.name)
+                response_to_mention("Ready " +ment[x].author.name+" #oknotok", ment[x].id, ment[x].author.screen_name)
+            elif '#ILike' in line and l.contains_user(ment[x].author.screen_name):
+                l.append_like(ment[x].author.screen_name,line.split('#ILike')[1].split(","))
+                response_to_mention("It's good to know that " + ment[x].author.name + ". I'll remember you, you'll remember me", ment[x].id,ment[x].author.screen_name)
+            elif '#YouDontRemember' in line and l.contains_user(ment[x].author.screen_name):
+                response_to_mention(l.what_do_i_like(ment[x].author.screen_name), ment[x].id, ment[x].author.screen_name)
             else:
                 bot = str(respond(line.lower().replace("'","").replace(
                     ","," ").replace(" +",' ')))
