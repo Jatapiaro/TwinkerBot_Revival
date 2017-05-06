@@ -8,11 +8,9 @@ import numpy as np
 from datasets.twitter import data
 import data_utils
 
-# load data from pickle and npy files
 metadata, idx_q, idx_a = data.load_data(PATH='datasets/twitter/')
 (trainX, trainY), (testX, testY), (validX, validY) = data_utils.split_dataset(idx_q, idx_a)
 
-# parameters
 xseq_len = trainX.shape[-1]
 yseq_len = trainY.shape[-1]
 batch_size = 32
@@ -22,7 +20,6 @@ emb_dim = 1024
 
 import seq2seq_wrapper
 
-# In[7]:
 
 model = seq2seq_wrapper.Seq2Seq(xseq_len=xseq_len,
                                yseq_len=yseq_len,
@@ -34,13 +31,12 @@ model = seq2seq_wrapper.Seq2Seq(xseq_len=xseq_len,
                                )
 
 
-# In[8]:
 
 val_batch_gen = data_utils.rand_batch_gen(validX, validY, 32)
 train_batch_gen = data_utils.rand_batch_gen(trainX, trainY, batch_size)
 
 
-# In[9]:
+
 sessi = model.restore_last_session()
 sessi = model.train(train_batch_gen, val_batch_gen,sessi)
 #sessi = model.train(train_batch_gen, val_batch_gen)
