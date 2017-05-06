@@ -1,0 +1,37 @@
+-Human: [Who is your father?] ; Bot answer [i think i was unk] ; 2017-05-05 21:50:09
+-Human: [Are you alive?] ; Bot answer [i dont know what to do] ; 2017-05-05 21:53:15
+-Human: [talk with me] ; Bot answer [thanks for the shout up] ; 2017-05-05 21:53:48
+-Human: [you're welcome] ; Bot answer [i know i was unk] ; 2017-05-05 21:54:06
+-Human: [good name for a robot] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-05 21:54:56
+-Human: [hahaha you screw it all] ; Bot answer [i dont know what to do] ; 2017-05-05 21:55:29
+-Human: [Watch porn] ; Bot answer [i think i was unk] ; 2017-05-05 21:56:02
+-Human: [You are a dirty robot] ; Bot answer [i dont think i was unk] ; 2017-05-05 21:56:35
+-Human: [did you read the newspaper?] ; Bot answer [i think its a unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-05 21:57:07
+-Human: [do you like Radiohead?] ; Bot answer [i dont know what to do] ; 2017-05-05 21:57:39
+-Human: [You suck as a robot] ; Bot answer [i dont think i was unk] ; 2017-05-05 23:09:36
+-Human: [do you like music?] ; Bot answer [i dont know what i was unk] ; 2017-05-05 23:10:24
+-Human: [IH8MV yes I do] ; Bot answer [i dont know what i was] ; 2017-05-05 23:10:58
+-Human: [do you like Coca Cola?] ; Bot answer [i dont think i was unk unk unk] ; 2017-05-05 23:14:23
+-Human: [89F281W yes, I love it] ; Bot answer [i love you too] ; 2017-05-05 23:18:25
+-Human: [goodnight god bless] ; Bot answer [have a good week u all ] ; 2017-05-05 23:18:42
+-Human: [we cant change the date for unk lol] ; Bot answer [i have to wait to see you] ; 2017-05-05 23:19:31
+-Human: [how are you?] ; Bot answer [i love you too] ; 2017-05-05 23:21:38
+-Human: [how are you?] ; Bot answer [i love you too] ; 2017-05-05 23:22:58
+-Human: [fine, and you?] ; Bot answer [unk unk unk] ; 2017-05-05 23:25:57
+-Human: [fine and you?] ; Bot answer [i love you too] ; 2017-05-05 23:25:58
+-Human: [how are you?] ; Bot answer [i love you too] ; 2017-05-05 23:28:02
+-Human: [K2XR8 wrong] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-05 23:49:51
+-Human: [how are you?] ; Bot answer [i love you too] ; 2017-05-05 23:51:42
+-Human: [UWE51BX wrong] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-05 23:54:52
+-Human: [do you like food?] ; Bot answer [i dont know what to do] ; 2017-05-05 23:56:42
+-Human: [74URM2S wrong] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-06 00:00:47
+-Human: [do you like tacos?] ; Bot answer [i dont know what to do] ; 2017-05-06 00:01:19
+-Human: [do you like music?] ; Bot answer [i dont know what i was unk] ; 2017-05-06 00:03:54
+-Human: [Do you like music?] ; Bot answer [i dont know what i was unk] ; 2017-05-06 00:04:43
+-Human: [ do you like music?] ; Bot answer [i dont know what i was unk] ; 2017-05-06 00:08:14
+-Human: [do you like music?] ; Bot answer [i dont know what i was unk] ; 2017-05-06 00:15:13
+-Human: [great :)] ; Bot answer [i think i was unk] ; 2017-05-06 00:16:18
+-Human: [how are you?] ; Bot answer [i love you too] ; 2017-05-06 00:18:33
+-Human: [fine, thank you darling] ; Bot answer [youre welcome ] ; 2017-05-06 00:20:30
+-Human: [sing me a song] ; Bot answer [i was unk unk] ; 2017-05-06 00:23:58
+-Human: [who won the first presidential debate] ; Bot answer [i think he was a unk unk] ; 2017-05-06 01:29:56

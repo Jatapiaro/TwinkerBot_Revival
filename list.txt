@@ -203,3 +203,4 @@ q : [it is so cold today in nyc i kinda like it ]; a : [i was so excited for you
 -Human: [Hello] ; Bot answer [i dont know] ; 2017-05-05 02:55:38
 -Human: [What do you know?] ; Bot answer [i dont know] ; 2017-05-05 02:55:44
 -Human: [How are you?] ; Bot answer [i dont know] ; 2017-05-05 02:55:49
+-Human: [Who is your father?] ; Bot answer [i think i was unk] ; 2017-05-05 21:46:30
