@@ -77,7 +77,7 @@ while True:
         if ment[x].favorite_count != 0:
             continue
         else:
-            line = str(ment[x].text).split(' ', 1)[1]
+            line = str(ment[x].text).split(' ', 1)[1].lower()
             if hash.lower() in line.lower():
                 key = get_tweet_to_fix(ment[x].in_reply_to_status_id).text.split(' ', 1)[1]
                 value = ment[x].text.split(hash)[1]
@@ -85,7 +85,7 @@ while True:
                 fixed.append_response(str(key).replace(" +"," "),str(value).replace(" +"," "))
                 response_to_mention("Ok", ment[x].id, ment[x].author.screen_name)
                 hash = correction_hash(randint(5,7))
-            elif fixed.contains_response(line.lower()):
+            elif fixed.contains_response(line):
                 r = fixed.get_response(line)
                 response_to_mention(r, ment[x].id, ment[x].author.screen_name)
             elif l.contains_user(ment[x].author.screen_name) and 'hello' in line:
