@@ -11,6 +11,8 @@ class LearningUsers:
     def __init__(self):
         if os.path.isfile("users.pickle"):
             self.dict = pickle.load(open("users.pickle", "rb"))
+            self.dict = {}
+            self.save_pickle()
         else:
             self.save_pickle()
 
