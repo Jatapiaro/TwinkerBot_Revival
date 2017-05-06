@@ -77,7 +77,7 @@ while True:
         if ment[x].favorite_count != 0:
             continue
         else:
-            line = str(ment[x].text).split(' ', 1)[1].lower()
+            line = str(ment[x].text).split(' ', 1)[1]
             if hash.lower() in line.lower():
                 key = get_tweet_to_fix(ment[x].in_reply_to_status_id).text.split(' ', 1)[1]
                 value = ment[x].text.split(hash)[1]

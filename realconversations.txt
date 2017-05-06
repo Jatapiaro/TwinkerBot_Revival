@@ -39,3 +39,13 @@
 -Human: [fine, how are you?] ; Bot answer [i love you too much] ; 2017-05-06 03:29:59
 -Human: [you can do it] ; Bot answer [i dont know what to do] ; 2017-05-06 03:53:44
 -Human: [#ilike] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-06 07:25:25
+-Human: [do you love me?] ; Bot answer [i have to see you in the unk] ; 2017-05-06 07:33:27
+-Human: [we cant move the meeting] ; Bot answer [i have to wait to see you in the unk] ; 2017-05-06 07:34:00
+-Human: [hello how are you?] ; Bot answer [i have a great time to see you] ; 2017-05-06 07:37:31
+-Human: [#remembermemarvin please please] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-06 07:38:05
+-Human: [great meeting today the new unk is unk to see you at] ; Bot answer [thanks for the shout out] ; 2017-05-06 07:39:43
+-Human: [#remembermemarvin please plase] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-06 07:40:33
+-Human: [#remembermemarvin please please] ; Bot answer [unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk unk] ; 2017-05-06 07:46:34
+-Human: [You are beautiful] ; Bot answer [thank you ] ; 2017-05-06 07:53:21
+-Human: [You are welcome] ; Bot answer [i dont know what you are] ; 2017-05-06 07:53:38
+-Human: [Im fine thank you] ; Bot answer [i love you too much] ; 2017-05-06 07:54:12
