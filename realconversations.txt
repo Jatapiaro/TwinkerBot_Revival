@@ -49,3 +49,5 @@
 -Human: [You are beautiful] ; Bot answer [thank you ] ; 2017-05-06 07:53:21
 -Human: [You are welcome] ; Bot answer [i dont know what you are] ; 2017-05-06 07:53:38
 -Human: [Im fine thank you] ; Bot answer [i love you too much] ; 2017-05-06 07:54:12
+-Human: [Hello] ; Bot answer [i love you guys] ; 2017-05-06 09:07:23
+-Human: [How are you?] ; Bot answer [i love you too] ; 2017-05-06 09:08:25

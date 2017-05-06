@@ -85,7 +85,7 @@ while True:
                 fixed.append_response(str(key).replace(" +"," "),str(value).replace(" +"," "))
                 response_to_mention("Ok", ment[x].id, ment[x].author.screen_name)
                 hash = correction_hash(randint(5,7))
-            elif fixed.contains_response(line):
+            elif fixed.contains_response(line.lower()):
                 r = fixed.get_response(line)
                 response_to_mention(r, ment[x].id, ment[x].author.screen_name)
             elif l.contains_user(ment[x].author.screen_name) and 'hello' in line:
